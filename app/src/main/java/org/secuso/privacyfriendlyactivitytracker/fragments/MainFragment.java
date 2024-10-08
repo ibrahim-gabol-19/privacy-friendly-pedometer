@@ -109,8 +109,8 @@ public class MainFragment extends Fragment implements SharedPreferences.OnShared
         adapter.addFragment(DailyReportFragment.newInstance(), getString(R.string.day));
         adapter.addFragment(WeeklyReportFragment.newInstance(), getString(R.string.week));
         adapter.addFragment(MonthlyReportFragment.newInstance(), getString(R.string.month));
-        adapter.addFragment(MonthlyReportFragment.newInstance(), getString(R.string.year));
-        adapter.addFragment(MonthlyReportFragment.newInstance(), getString(R.string.alltime));
+        adapter.addFragment(YearlyReportFragment.newInstance(), getString(R.string.year));
+//        adapter.addFragment(MonthlyReportFragment.newInstance(), getString(R.string.alltime));
         viewPager.setAdapter(adapter);
     }
 

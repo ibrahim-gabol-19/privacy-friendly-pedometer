@@ -28,6 +28,7 @@ import org.secuso.privacyfriendlyactivitytracker.fragments.DailyReportFragment;
 import org.secuso.privacyfriendlyactivitytracker.fragments.MainFragment;
 import org.secuso.privacyfriendlyactivitytracker.fragments.MonthlyReportFragment;
 import org.secuso.privacyfriendlyactivitytracker.fragments.WeeklyReportFragment;
+import org.secuso.privacyfriendlyactivitytracker.fragments.YearlyReportFragment;
 import org.secuso.privacyfriendlyactivitytracker.tutorial.TutorialActivity;
 
 /**
@@ -37,7 +38,7 @@ import org.secuso.privacyfriendlyactivitytracker.tutorial.TutorialActivity;
  * @version 20161214
  */
 
-public class MainActivity extends BaseActivity implements DailyReportFragment.OnFragmentInteractionListener, WeeklyReportFragment.OnFragmentInteractionListener, MonthlyReportFragment.OnFragmentInteractionListener {
+public class MainActivity extends BaseActivity implements DailyReportFragment.OnFragmentInteractionListener, WeeklyReportFragment.OnFragmentInteractionListener, MonthlyReportFragment.OnFragmentInteractionListener, YearlyReportFragment.OnFragmentInteractionListener {
 
 
     @Override
